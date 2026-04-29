@@ -69,5 +69,8 @@ console.log(str.toUpperCase())
 
 // 4
 let s = "Please give Rs 1000"
-console.log()
+console.log(s.slice(0, 11))
+
+// 5
+console.log(s.replace('P', 'F'))
 
