@@ -1,4 +1,4 @@
-let arr = [1, 2, 4, 5, 7]
+// let arr = [1, 2, 4, 5, 7]
 
 // console.log(arr)
 // console.log(arr.length)
@@ -51,8 +51,8 @@ a[0] = 'K'
 
 let numbers = [1, 2, 3, 4, 5]
 numbers.splice(1, 2) //1-position, 2-no. of elements to remove
-console.log(numbers)
+// console.log(numbers)
 
 let num = [1, 2, 3, 4, 5]
 num.splice(1, 2, 111, 222, 333, 444) 
-console.log(num)
+// console.log(num)
