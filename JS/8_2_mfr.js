@@ -42,10 +42,17 @@ let result = arr3.filter(num => num % 10 === 0)
 console.log(result)
 
 // 4
-// let ans
 let ar = []
 arr3.forEach((value) => {
     ar.push(value*value)
 })
 console.log(ar)
+
+//5
+let f
+n = 2
+const facto = (n) => {
+    if(n != 0) return n * (n-1);
+}
+console.log(arr3.reduce(facto))
 
